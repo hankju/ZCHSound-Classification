@@ -1,0 +1,90 @@
+{
+  "tag": "stage24_stage25_fixed_raw_curriculum_replication_summary",
+  "labels": ["ASD", "NORMAL", "PDA", "PFO", "VSD"],
+  "test_used_for_selection": false,
+  "stage24_seed20267020": {
+    "flat": {
+      "accuracy": 0.824654622741764,
+      "macro_f1": 0.6056995607297815,
+      "minority_recall": 0.34625350140056027,
+      "minority_f1": 0.4056808688387636,
+      "normal_recall": 0.9868667917448405,
+      "nll": 0.5268401606138515
+    },
+    "curriculum": {
+      "accuracy": 0.824654622741764,
+      "macro_f1": 0.6373921745483737,
+      "minority_recall": 0.4269082633053221,
+      "minority_f1": 0.4569973236639904,
+      "normal_recall": 0.9718574108818011,
+      "nll": 0.5420862192314184
+    },
+    "delta_curriculum_minus_flat": {
+      "accuracy": 0.0,
+      "macro_f1": 0.03169261381859223,
+      "minority_recall": 0.08065476190476184,
+      "minority_f1": 0.05131645482522679,
+      "normal_recall": -0.01500938086303938,
+      "nll": 0.015246058617566893
+    }
+  },
+  "stage25_seed20268020": {
+    "flat": {
+      "accuracy": 0.8214665249734325,
+      "macro_f1": 0.6048342128022245,
+      "minority_recall": 0.3538165266106443,
+      "minority_f1": 0.40850822993149033,
+      "normal_recall": 0.9793621013133208,
+      "nll": 0.5390905215633135
+    },
+    "curriculum": {
+      "accuracy": 0.8310308182784272,
+      "macro_f1": 0.6499040704282716,
+      "minority_recall": 0.44119397759103646,
+      "minority_f1": 0.4704466112916817,
+      "normal_recall": 0.9718574108818011,
+      "nll": 0.5453007495968262
+    },
+    "delta_curriculum_minus_flat": {
+      "accuracy": 0.009564293304994642,
+      "macro_f1": 0.045069857626047094,
+      "minority_recall": 0.08737745098039218,
+      "minority_f1": 0.06193838136019136,
+      "normal_recall": -0.00750469043151969,
+      "nll": 0.006210228033512677
+    },
+    "predeclared_gate": {
+      "accuracy_delta_at_least_minus_0_005": true,
+      "macro_f1_delta_at_least_0_01": true,
+      "minority_f1_delta_at_least_0_01": true,
+      "passed": true
+    }
+  },
+  "unweighted_mean_across_split_seeds": {
+    "flat": {
+      "accuracy": 0.8230605738575983,
+      "macro_f1": 0.605266886766003,
+      "minority_recall": 0.3500350140056023,
+      "minority_f1": 0.40709454938512696,
+      "normal_recall": 0.9831144465290807,
+      "nll": 0.5329653410885825
+    },
+    "curriculum": {
+      "accuracy": 0.8278427205100956,
+      "macro_f1": 0.6436481224883227,
+      "minority_recall": 0.4340511204481793,
+      "minority_f1": 0.46372196747783604,
+      "normal_recall": 0.9718574108818011,
+      "nll": 0.5436934844141223
+    },
+    "delta_curriculum_minus_flat": {
+      "accuracy": 0.004782146652497321,
+      "macro_f1": 0.03838123572231966,
+      "minority_recall": 0.08401610644257701,
+      "minority_f1": 0.05662741809270909,
+      "normal_recall": -0.011257035647279535,
+      "nll": 0.010728143325539785
+    }
+  },
+  "interpretation": "The fixed raw curriculum pair replicated improved macro and minority F1 while preserving or improving accuracy. It reduces normal recall slightly and worsens NLL, so it is a balanced classification operating point rather than a calibration improvement."
+}

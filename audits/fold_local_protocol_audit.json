@@ -1,0 +1,686 @@
+{
+  "status": "passed",
+  "dataset_variant": "original_public_941_recordings",
+  "split_seed": 20268020,
+  "same_fold_train_validation_test_patient_overlap": 0,
+  "outer_test_recordings_once": 941,
+  "component_runs_checked": 40,
+  "component_runs": [
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 1,
+      "fold": 0,
+      "seed": 20333100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 1,
+      "fold": 1,
+      "seed": 20333101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 1,
+      "fold": 2,
+      "seed": 20333102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 1,
+      "fold": 3,
+      "seed": 20333103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 1,
+      "fold": 4,
+      "seed": 20333104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 2,
+      "fold": 0,
+      "seed": 20334100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 2,
+      "fold": 1,
+      "seed": 20334101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 2,
+      "fold": 2,
+      "seed": 20334102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 2,
+      "fold": 3,
+      "seed": 20334103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_curriculum_balanced",
+      "replica": 2,
+      "fold": 4,
+      "seed": 20334104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 1,
+      "fold": 0,
+      "seed": 20433100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 1,
+      "fold": 1,
+      "seed": 20433101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 1,
+      "fold": 2,
+      "seed": 20433102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 1,
+      "fold": 3,
+      "seed": 20433103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 1,
+      "fold": 4,
+      "seed": 20433104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 2,
+      "fold": 0,
+      "seed": 20434100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 2,
+      "fold": 1,
+      "seed": 20434101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 2,
+      "fold": 2,
+      "seed": 20434102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 2,
+      "fold": 3,
+      "seed": 20434103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_curriculum_conservative",
+      "replica": 2,
+      "fold": 4,
+      "seed": 20434104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 1,
+      "fold": 0,
+      "seed": 20333100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 1,
+      "fold": 1,
+      "seed": 20333101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 1,
+      "fold": 2,
+      "seed": 20333102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 1,
+      "fold": 3,
+      "seed": 20333103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 1,
+      "fold": 4,
+      "seed": 20333104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 2,
+      "fold": 0,
+      "seed": 20334100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 2,
+      "fold": 1,
+      "seed": 20334101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 2,
+      "fold": 2,
+      "seed": 20334102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 2,
+      "fold": 3,
+      "seed": 20334103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "ast_flat",
+      "replica": 2,
+      "fold": 4,
+      "seed": 20334104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 1,
+      "fold": 0,
+      "seed": 20433100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 1,
+      "fold": 1,
+      "seed": 20433101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 1,
+      "fold": 2,
+      "seed": 20433102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 1,
+      "fold": 3,
+      "seed": 20433103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 1,
+      "fold": 4,
+      "seed": 20433104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 2,
+      "fold": 0,
+      "seed": 20434100,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 2,
+      "fold": 1,
+      "seed": 20434101,
+      "validation_n": 94,
+      "test_n": 190,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 2,
+      "fold": 2,
+      "seed": 20434102,
+      "validation_n": 94,
+      "test_n": 188,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 2,
+      "fold": 3,
+      "seed": 20434103,
+      "validation_n": 94,
+      "test_n": 187,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    },
+    {
+      "family": "beats_flat",
+      "replica": 2,
+      "fold": 4,
+      "seed": 20434104,
+      "validation_n": 94,
+      "test_n": 186,
+      "checks": {
+        "patient_overlap_zero": true,
+        "test_metrics_blinded": true,
+        "selection_scope_same_fold_validation": true,
+        "seed_matches_protocol": true,
+        "validation_ids_match_split": true,
+        "test_ids_match_split": true
+      }
+    }
+  ],
+  "stage25_lock": {
+    "selection_sha256": "8cea675cdee574fd79d0bb686e51e5352d1c37ed26d1815fcd612f823762422b",
+    "fold_decisions": 5,
+    "checks": {
+      "selection_only": true,
+      "test_used_for_selection_false": true,
+      "outer_test_probabilities_not_loaded": true,
+      "selection_root_contains_no_test": true,
+      "summary_test_used_for_selection_false": true,
+      "lock_sha_matches_evaluation": true
+    }
+  },
+  "stage26_lock": {
+    "selection_sha256": "f942464ff77cf1e40d0de86c45e6cd6f38281a497d4e466868ca81fda8dcb9de",
+    "fold_decisions": 5,
+    "checks": {
+      "selection_only": true,
+      "test_used_for_selection_false": true,
+      "outer_test_probabilities_not_loaded": true,
+      "selection_root_contains_no_test": true,
+      "summary_test_used_for_selection_false": true,
+      "lock_sha_matches_evaluation": true
+    }
+  },
+  "oof_predictions": {
+    "stage25_fixed_curriculum_oof_predictions.csv": {
+      "rows_941": true,
+      "recording_ids_unique": true,
+      "matches_fixed_fold_and_label": true
+    },
+    "stage26_multimodal_oof_predictions.csv": {
+      "rows_941": true,
+      "recording_ids_unique": true,
+      "matches_fixed_fold_and_label": true
+    }
+  }
+}

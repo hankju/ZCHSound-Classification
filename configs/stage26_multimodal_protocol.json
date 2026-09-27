@@ -1,0 +1,57 @@
+{
+  "tag": "stage26_train_fitted_demographic_prior_protocol",
+  "created_before_multimodal_selection": true,
+  "test_used_for_protocol_design": false,
+  "split_seed": 20268020,
+  "folds": 5,
+  "acoustic_baseline": "fixed Stage25 raw curriculum pair",
+  "metadata": ["age_days", "sex01"],
+  "training_protocol": "For each fold, fit demographic models on that fold's train patients, select correction using only that fold's validation patients, refit the locked demographic model on train plus validation, and predict the disjoint test patients.",
+  "demographic_model": "multinomial Logistic Regression without class weights",
+  "train_only_c_grid": [0.01, 0.1, 1.0],
+  "train_only_c_selection": "minimum NLL under repeated stratified 5-fold CV with 3 repeats",
+  "feature_modes": ["age_only", "age_sex"],
+  "correction_scopes": ["abnormal_conditional", "all_classes"],
+  "adaptation_modes": ["fixed", "entropy"],
+  "prior_strengths": [0.1, 0.25, 0.5],
+  "selection_branch_priority": [
+    "accuracy",
+    "balanced_f1",
+    "calibration",
+    "acoustic_only"
+  ],
+  "accuracy_branch_gate": {
+    "accuracy_delta_min": 0.005,
+    "macro_f1_delta_min": -0.005,
+    "minority_f1_delta_min": -0.01,
+    "normal_recall_delta_min": -0.02,
+    "nll_delta_max": 0.02
+  },
+  "balanced_f1_branch_gate": {
+    "balanced_score": "0.5 * macro_f1 + 0.5 * minority_f1",
+    "balanced_score_delta_min": 0.005,
+    "accuracy_delta_min": "minus one validation patient",
+    "normal_recall_delta_min": -0.02,
+    "nll_delta_max": 0.02
+  },
+  "calibration_branch_gate": {
+    "nll_delta_max": -0.005,
+    "accuracy_delta_min": "minus one validation patient",
+    "macro_f1_delta_min": -0.005,
+    "normal_recall_delta_min": -0.02
+  },
+  "no_cross_fold_metadata_pooling": true,
+  "no_test_adaptation": true,
+  "outer_test_evaluation_count": 1,
+  "fixed_file_sha256": {
+    "select_stage26_multimodal_demographic_prior.py": "869644745e935ace75472e1f6327b7fdd6d3a7f832ab8bdf550ce68cd08ba972",
+    "evaluate_stage26_multimodal_demographic_prior.py": "f9ffa53e1d80bb62038a27c38985e7f4cab2b757bb2a25409a9b79e2379711ec",
+    "clean_dataset_manifest_merged.csv": "d7e18771a76475a9cccd1579a93a303032af1e7083a40f804ac86529855d07be",
+    "cv5_manifest.json": "8416b7c7bb3d38a8e332c28aa82c0f2012e2e717d32e07b182684b2dce62567c",
+    "cv5_tvt_fold0.json": "1106721cd132ed0c7400aec3928b3a037b4590e0d973f54298bd41ff5ec46c5a",
+    "cv5_tvt_fold1.json": "73d0192f1db2546f24842e86fff98c6fcf88672e9e7b6a5cb7b5e67c0deb65fc",
+    "cv5_tvt_fold2.json": "42d9d775446ed56465d3831687cffac3eb928bb4c00066f6f33d197b018eb610",
+    "cv5_tvt_fold3.json": "7b50891d99176f600903ecd9246ee0bdcad27cbd565cf0dc3eed51c6cf570faa",
+    "cv5_tvt_fold4.json": "dc05317dec5c2c6b6c78553cc6687f2cb5302c02c67fa10d601ecba6995c9322"
+  }
+}

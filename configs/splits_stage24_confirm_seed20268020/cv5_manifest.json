@@ -1,0 +1,46 @@
+{
+  "base_split_json": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/splits_exp4_filelevel_seed42.json",
+  "num_folds": 5,
+  "seed": 20268020,
+  "val_ratio_total": 0.1,
+  "test_ratio_total": 0.2,
+  "inner_val_fraction": 0.125,
+  "output_dir": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020",
+  "folds": [
+    {
+      "fold": 0,
+      "split_json": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020/cv5_tvt_fold0.json",
+      "train_count": 657,
+      "val_count": 94,
+      "test_count": 190
+    },
+    {
+      "fold": 1,
+      "split_json": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020/cv5_tvt_fold1.json",
+      "train_count": 657,
+      "val_count": 94,
+      "test_count": 190
+    },
+    {
+      "fold": 2,
+      "split_json": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020/cv5_tvt_fold2.json",
+      "train_count": 659,
+      "val_count": 94,
+      "test_count": 188
+    },
+    {
+      "fold": 3,
+      "split_json": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020/cv5_tvt_fold3.json",
+      "train_count": 660,
+      "val_count": 94,
+      "test_count": 187
+    },
+    {
+      "fold": 4,
+      "split_json": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020/cv5_tvt_fold4.json",
+      "train_count": 661,
+      "val_count": 94,
+      "test_count": 186
+    }
+  ]
+}

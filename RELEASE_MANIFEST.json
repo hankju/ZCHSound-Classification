@@ -1,0 +1,81 @@
+{
+  "release_tag": "stage25_stage26_portfolio_20260928",
+  "author": "朱恆暐",
+  "repository": "https://github.com/hankju/ZCHSound-Classification",
+  "dataset_variant": "original_public_941_recordings",
+  "split_seed": 20268020,
+  "folds": 5,
+  "label_order": [
+    "ASD",
+    "NORMAL",
+    "PDA",
+    "PFO",
+    "VSD"
+  ],
+  "formal_methods": {
+    "primary": {
+      "name": "Stage25 fixed acoustic curriculum",
+      "accuracy": 0.8310308182784272,
+      "macro_f1": 0.6499040704282716,
+      "recording_predictions": "predictions/stage25_fixed_curriculum_oof_predictions.csv"
+    },
+    "secondary": {
+      "name": "Stage26 age/sex clinical fusion",
+      "accuracy": 0.8299681190223167,
+      "macro_f1": 0.6547865947302501,
+      "recording_predictions": "predictions/stage26_multimodal_oof_predictions.csv"
+    }
+  },
+  "trained_weights": {
+    "included": true,
+    "checkpoint_type": "LoRA/adaptor and task-head state",
+    "ast_checkpoints": 10,
+    "beats_checkpoints": 10,
+    "total_checkpoints": 20,
+    "flat_control_checkpoints_included": false
+  },
+  "external_dependencies": {
+    "audio_dataset_included": false,
+    "ast_base_model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+    "beats_base_checkpoint": "BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt",
+    "input_caches_included": false
+  },
+  "reproduction_assets": {
+    "training_code": true,
+    "checkpoint_inference_code": true,
+    "fusion_code": true,
+    "recording_level_predictions": true,
+    "fixed_split_definitions": true,
+    "fixed_seeds": true,
+    "component_settings": true,
+    "environment_requirements": true,
+    "fold_local_protocol_audit": "audits/fold_local_protocol_audit.json",
+    "integrity_manifest": "SHA256SUMS"
+  },
+  "known_dataset_issue": {
+    "source_repository": "https://github.com/WeiJieOvO/ZCHSound-Dataset",
+    "source_paper_participants": 941,
+    "source_paper_audio_recordings": 941,
+    "one_recording_per_participant": true,
+    "notice": "docs/DATASET_DUPLICATE_NOTICE.md",
+    "machine_readable_audit": "audits/source_dataset_duplicate_audit.csv",
+    "byte_identical_pairs": 6,
+    "cross_outer_fold_pairs": 4,
+    "conflicting_label_pairs": 1,
+    "formal_rows_retained": 941,
+    "formal_split_is_content_deduplicated": false,
+    "audio_sha256_manifest": "configs/dataset_audio_sha256.csv"
+  },
+  "publication_assets": {
+    "project_license": "LICENSE",
+    "beats_license": "third_party/unilm_beats/LICENSE",
+    "third_party_notices": "THIRD_PARTY_NOTICES.md",
+    "citation_metadata": "CITATION.cff",
+    "bibliography": "CITATIONS.bib",
+    "dataset_documentation": "docs/DATASET.md",
+    "model_card": "MODEL_CARD.md",
+    "baseline_retraining_grid": "configs/backbone7_retraining_grid.tsv",
+    "baseline_task_count": 35,
+    "continuous_integration": ".github/workflows/artifact-audit.yml"
+  }
+}

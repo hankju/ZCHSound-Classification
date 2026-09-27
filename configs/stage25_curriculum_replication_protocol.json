@@ -1,0 +1,65 @@
+{
+  "tag": "stage25_fixed_curriculum_replication",
+  "created_before_training": true,
+  "test_used_for_protocol_design": false,
+  "patient_split_seed": 20268020,
+  "folds": 5,
+  "patients": 941,
+  "replicas_per_model_fold": 2,
+  "total_single_gpu_tasks": 40,
+  "paired_training_seeds": {
+    "ast": "20332100 + replica*1000 + fold",
+    "beats": "20332100 + 100000 + replica*1000 + fold"
+  },
+  "flat_control": [
+    "ast_flat_seed2_mean",
+    "beats_flat_seed2_mean"
+  ],
+  "fixed_curriculum_pair": [
+    "ast_curriculum_balanced_seed2_mean",
+    "beats_curriculum_conservative_seed2_mean"
+  ],
+  "fixed_curriculum_parameters": {
+    "ast": {
+      "objective": "balanced",
+      "binary_loss_weight": 0.5,
+      "subtype_loss_weight": 1.0,
+      "consistency_weight": 0.1
+    },
+    "beats": {
+      "objective": "conservative",
+      "binary_loss_weight": 0.25,
+      "subtype_loss_weight": 0.5,
+      "consistency_weight": 0.05
+    }
+  },
+  "aggregation": "arithmetic mean across the two replicas, then arithmetic mean across AST and BEATs",
+  "primary_comparison": "fixed raw curriculum pair versus paired flat control on the same held-out patients",
+  "confirmation_gate": {
+    "accuracy_delta_min": -0.005,
+    "macro_f1_delta_min": 0.01,
+    "minority_f1_delta_min": 0.01
+  },
+  "reported_secondary_metrics": [
+    "minority_recall",
+    "normal_recall",
+    "nll",
+    "per_class_recall",
+    "per_class_f1"
+  ],
+  "no_fresh_test_adaptation": true,
+  "outer_test_evaluation_count": 1,
+  "stage24_development_selection_sha256": "76fe7e6765c7bb45321a54d81f432d9fe88de72de00e764bc9e2188fb5133160",
+  "fixed_file_sha256": {
+    "cv5_manifest.json": "8416b7c7bb3d38a8e332c28aa82c0f2012e2e717d32e07b182684b2dce62567c",
+    "cv5_tvt_fold0.json": "1106721cd132ed0c7400aec3928b3a037b4590e0d973f54298bd41ff5ec46c5a",
+    "cv5_tvt_fold1.json": "73d0192f1db2546f24842e86fff98c6fcf88672e9e7b6a5cb7b5e67c0deb65fc",
+    "cv5_tvt_fold2.json": "42d9d775446ed56465d3831687cffac3eb928bb4c00066f6f33d197b018eb610",
+    "cv5_tvt_fold3.json": "7b50891d99176f600903ecd9246ee0bdcad27cbd565cf0dc3eed51c6cf570faa",
+    "cv5_tvt_fold4.json": "dc05317dec5c2c6b6c78553cc6687f2cb5302c02c67fa10d601ecba6995c9322",
+    "run_stage24_conditional_task.py": "0ec4b7e5ca65f1c9f52f235c63a30b7dd16aad0ed4988888e8a41c8c90082ae5",
+    "train_curriculum_multitask_patient.py": "48b367d81a56706dc7eb931fbf26e020150c954f2ab85d2f93710679ed180512",
+    "train_ast_lora_patient.py": "f4c8411fca4fcd2faebe7dca4de0deb276443305af5dd6c95c6eb7b6647ad971",
+    "train_beats_patient.py": "768ba77414fa63432f93d461a198918c8d9d340e8330a91b28a8ecadf9f352d8"
+  }
+}

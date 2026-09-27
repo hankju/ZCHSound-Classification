@@ -1,0 +1,3794 @@
+{
+  "tag": "ast_input_values_cache_v1",
+  "model_name": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "labels_used_during_cache_creation": false,
+  "split_information_used_during_cache_creation": false,
+  "dataset_path": "/home/u7671999/ZCHSound/ZCHSound/clean Heartsound Data",
+  "sample_rate": 16000,
+  "window_sec": 4.0,
+  "overlap_sec": 3.0,
+  "feature_shape": [
+    1024,
+    128
+  ],
+  "storage_dtype": "float16",
+  "files_requested": 941,
+  "files_completed": 941,
+  "files_skipped": 0,
+  "segments": 16225,
+  "stored_bytes": 4253406848,
+  "inventory": [
+    {
+      "file_id": "ASD/ZCH0534.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0535.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0536.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0537.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0538.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0539.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0540.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0541.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0542.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0543.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0544.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0545.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0546.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0547.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0548.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0549.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0550.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0551.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0552.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0553.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0554.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0555.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0556.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0557.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0558.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0559.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0560.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0561.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0562.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0563.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0564.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0565.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0566.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0567.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0568.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0569.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0570.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0571.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0572.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0573.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0574.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0575.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0576.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0577.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0578.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0579.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0580.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0581.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0582.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0583.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0584.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0585.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0586.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0587.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0588.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0589.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0590.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0591.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0592.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "ASD/ZCH0593.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0594.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0595.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0596.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0597.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0598.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0599.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0600.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0601.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0602.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0603.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0604.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0605.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0606.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0607.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0608.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0609.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0610.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0611.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0612.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0613.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0614.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0615.wav",
+      "segments": 36
+    },
+    {
+      "file_id": "ASD/ZCH0616.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0617.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0618.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0619.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0620.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0621.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0622.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0623.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0624.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0625.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0626.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0627.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0628.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0629.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0630.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0631.wav",
+      "segments": 58
+    },
+    {
+      "file_id": "ASD/ZCH0632.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0633.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0634.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0635.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0636.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0637.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0638.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0639.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0640.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0641.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0642.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0643.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0644.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0645.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0646.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0647.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0648.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0649.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0650.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0651.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "ASD/ZCH0652.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0001.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0002.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0003.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0004.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0005.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0006.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0007.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0008.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0009.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0010.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0011.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0012.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0013.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "NORMAL/ZCH0014.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0015.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0016.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0017.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0018.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0019.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0020.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0021.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0022.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0023.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0024.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0025.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0026.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0027.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0028.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0029.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0030.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0031.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0032.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0033.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0034.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0035.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0036.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0037.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0038.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0039.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0040.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "NORMAL/ZCH0041.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0042.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0043.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0044.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0045.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0046.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0047.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0048.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0049.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0050.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0051.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0052.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0053.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0054.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0055.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0056.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0057.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0058.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0059.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "NORMAL/ZCH0060.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0061.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0062.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0063.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0064.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0065.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0066.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0067.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0068.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "NORMAL/ZCH0069.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0070.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0071.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0072.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0073.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0074.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0075.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0076.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0077.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0078.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0079.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0080.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0081.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0082.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0083.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0084.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0085.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0086.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0087.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0088.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0089.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0090.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0091.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0092.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0093.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0094.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0095.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0096.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0097.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0098.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0099.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0100.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0101.wav",
+      "segments": 20
+    },
+    {
+      "file_id": "NORMAL/ZCH0102.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "NORMAL/ZCH0103.wav",
+      "segments": 23
+    },
+    {
+      "file_id": "NORMAL/ZCH0104.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0105.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0106.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0107.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0108.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0109.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0110.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0111.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0112.wav",
+      "segments": 33
+    },
+    {
+      "file_id": "NORMAL/ZCH0113.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0114.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0115.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0116.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0117.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0118.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0119.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0120.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0121.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0122.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0123.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0124.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0125.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0126.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0127.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0128.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0129.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0130.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0131.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0132.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0133.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0134.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0135.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0136.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0137.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0138.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0139.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0140.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0141.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0142.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0143.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0144.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0145.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0146.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0147.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0148.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0149.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0150.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0151.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0152.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0153.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0154.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0155.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0156.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0157.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0158.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0159.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0160.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0161.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0162.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0163.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0164.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0165.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0166.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0167.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0168.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0169.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0170.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0171.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0172.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0173.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0174.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0175.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0176.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0177.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0178.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0179.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0180.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0181.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0182.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0183.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0184.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0185.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0186.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0187.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0188.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0189.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0190.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0191.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0192.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0193.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0194.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0195.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0196.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0197.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0198.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0199.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0200.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0201.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0202.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0203.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0204.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0205.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0206.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0207.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0208.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0209.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0210.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0211.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0212.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0213.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0214.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0215.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0216.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0217.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0218.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0219.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0220.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0221.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0222.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0223.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0224.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0225.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0226.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0227.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0228.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0229.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0230.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0231.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0232.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0233.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0234.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0235.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0236.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0237.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0238.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0239.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0240.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0241.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0242.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0243.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0244.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0245.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0246.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0247.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0248.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0249.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0250.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0251.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0252.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0253.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0254.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0255.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0256.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0257.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0258.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0259.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0260.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0261.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0262.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0263.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0264.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0265.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0266.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0267.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0268.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0269.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0270.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0271.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0272.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0273.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0274.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0275.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0276.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0277.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0278.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0279.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0280.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0281.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0282.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0283.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0284.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0285.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0286.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0287.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0288.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0289.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0290.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0291.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0292.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0293.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0294.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0295.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0296.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0297.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0298.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0299.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0300.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0301.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0302.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0303.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0304.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0305.wav",
+      "segments": 37
+    },
+    {
+      "file_id": "NORMAL/ZCH0306.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0307.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0308.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0309.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0310.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0311.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0312.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0313.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0314.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0315.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0316.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0317.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0318.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0319.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0320.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0321.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0322.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0323.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0324.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0325.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0326.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0327.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0328.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0329.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0330.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0331.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0332.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0333.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0334.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0335.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0336.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0337.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0338.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0339.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0340.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0341.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0342.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0343.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0344.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0345.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0346.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0347.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0348.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0349.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0350.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0351.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0352.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0353.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0354.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0355.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0356.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0357.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0358.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0359.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0360.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0361.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0362.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0363.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0364.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0365.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0366.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0367.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0368.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0369.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0370.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0371.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0372.wav",
+      "segments": 16
+    },
+    {
+      "file_id": "NORMAL/ZCH0373.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0374.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0375.wav",
+      "segments": 30
+    },
+    {
+      "file_id": "NORMAL/ZCH0376.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0377.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0378.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0379.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0380.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0381.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0382.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0383.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0384.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0385.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0386.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0387.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0388.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0389.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0390.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0391.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0392.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0393.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0394.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0395.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0396.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0397.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0398.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0399.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0400.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0401.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0402.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0403.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0404.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0405.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0406.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0407.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0408.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0409.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0410.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0411.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0412.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0413.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0414.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0415.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0416.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0417.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0418.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0419.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0420.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0421.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0422.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0423.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0424.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0425.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0426.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0427.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0428.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0429.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0430.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0431.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0432.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0433.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0434.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0435.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0436.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0437.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0438.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0439.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0440.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0441.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0442.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0443.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0444.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0445.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0446.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0447.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0448.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0449.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0450.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0451.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0452.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0453.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0454.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0455.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0456.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0457.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0458.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0459.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0460.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0461.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0462.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0463.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0464.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0465.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0466.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0467.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0468.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0469.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0470.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0471.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0472.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0473.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0474.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0475.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0476.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0477.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0478.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0479.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0480.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0481.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0482.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0483.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0484.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0485.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0486.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0487.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0488.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0489.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0490.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0491.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0492.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0493.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0494.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0495.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0496.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0497.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0498.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0499.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0500.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0501.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0502.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0503.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0504.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0505.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0506.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0507.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0508.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0509.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0510.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0511.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0512.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0513.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0514.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0515.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0516.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0517.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0518.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0519.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0520.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0521.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0522.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0523.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0524.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0525.wav",
+      "segments": 16
+    },
+    {
+      "file_id": "NORMAL/ZCH0526.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0527.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0528.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0529.wav",
+      "segments": 29
+    },
+    {
+      "file_id": "NORMAL/ZCH0530.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0531.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0532.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "NORMAL/ZCH0533.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0653.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0654.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0655.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0656.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0657.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0658.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0659.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0660.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0661.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0662.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0663.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0664.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0665.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0666.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0667.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0668.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0669.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0670.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0671.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0672.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0673.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0674.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0675.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0676.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0677.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0678.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0679.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0680.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0681.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0682.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PDA/ZCH0683.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PDA/ZCH0684.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0685.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0686.wav",
+      "segments": 24
+    },
+    {
+      "file_id": "PFO/ZCH0687.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0688.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0689.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0690.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0691.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0692.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0693.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0694.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0695.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0696.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0697.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0698.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0699.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0700.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0701.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0702.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0703.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0704.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0705.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0706.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0707.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0708.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0709.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0710.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0711.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0712.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0713.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0714.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0715.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0716.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0717.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0718.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0719.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0720.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0721.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0722.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0723.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0724.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0725.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0726.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0727.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0728.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0729.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0730.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0731.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0732.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0733.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0734.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0735.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0736.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0737.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0738.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0739.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0740.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0741.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "PFO/ZCH0742.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0743.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0744.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0745.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0746.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0747.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0748.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0749.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0750.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0751.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0752.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0753.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "PFO/ZCH0754.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0755.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0756.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0757.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0758.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0759.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0760.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0761.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0762.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0763.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0764.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0765.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0766.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0767.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0768.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0769.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0770.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0771.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0772.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0773.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0774.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0775.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0776.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0777.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0778.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0779.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0780.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0781.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0782.wav",
+      "segments": 31
+    },
+    {
+      "file_id": "VSD/ZCH0783.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0784.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0785.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0786.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0787.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0788.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0789.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0790.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0791.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0792.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0793.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0794.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0795.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0796.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0797.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0798.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0799.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0800.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0801.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0802.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0803.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0804.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0805.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0806.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0807.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0808.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0809.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0810.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0811.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0812.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0813.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0814.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0815.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0816.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0817.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0818.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0819.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0820.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0821.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0822.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0823.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0824.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0825.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0826.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0827.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0828.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0829.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0830.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0831.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0832.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0833.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0834.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0835.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0836.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0837.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0838.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0839.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0840.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0841.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0842.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0843.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0844.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0845.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0846.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0847.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0848.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0849.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0850.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0851.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0852.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0853.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0854.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0855.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0856.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0857.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0858.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0859.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0860.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0861.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0862.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0863.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0864.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0865.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0866.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0867.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0868.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0869.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0870.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0871.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0872.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0873.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0874.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0875.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0876.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0877.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0878.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0879.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0880.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0881.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0882.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0883.wav",
+      "segments": 24
+    },
+    {
+      "file_id": "VSD/ZCH0884.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0885.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0886.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0887.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0888.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0889.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0890.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0891.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0892.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0893.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0894.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0895.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0896.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0897.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0898.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0899.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0900.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0901.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0902.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0903.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0904.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0905.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0906.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0907.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0908.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0909.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0910.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0911.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0912.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0913.wav",
+      "segments": 24
+    },
+    {
+      "file_id": "VSD/ZCH0914.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0915.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0916.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0917.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0918.wav",
+      "segments": 20
+    },
+    {
+      "file_id": "VSD/ZCH0919.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0920.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0921.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0922.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0923.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0924.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0925.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0926.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0927.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0928.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0929.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0930.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0931.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0932.wav",
+      "segments": 18
+    },
+    {
+      "file_id": "VSD/ZCH0933.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0934.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0935.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0936.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0937.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0938.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0939.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0940.wav",
+      "segments": 17
+    },
+    {
+      "file_id": "VSD/ZCH0941.wav",
+      "segments": 17
+    }
+  ],
+  "failures": [],
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.4",
+    "librosa": "0.11.0",
+    "numpy": "2.0.2"
+  },
+  "configuration_sha256": "8c6921d17e11b4cbb6d6d8840259f2867cee4c46ac0654a3e254ee156dd327d2"
+}

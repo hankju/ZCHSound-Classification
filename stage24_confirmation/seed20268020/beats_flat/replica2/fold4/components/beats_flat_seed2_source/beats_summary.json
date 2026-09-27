@@ -1,0 +1,482 @@
+{
+  "run_id": "seed20268020_replica2_fold4",
+  "model_tag": "beats_lora_qv_seed20268020_replica2_fold4",
+  "encoder": "BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2",
+  "official_unilm_commit": "833df7e7832e5064a281131ee64a481afa8e5b95",
+  "variant": "lora_qv",
+  "aggregation_training": "patient_equal_mean_segment_logits",
+  "metadata_used_as_features": false,
+  "trainable_parameters": 300293,
+  "total_parameters": 90612085,
+  "trainable_fraction": 0.003314050217473751,
+  "rank": 8,
+  "lora_alpha": 16.0,
+  "train_segments_per_file_per_epoch": 8,
+  "class_weight_power": 0.5,
+  "training_class_weights": [
+    0.9099089503288269,
+    0.4312228560447693,
+    1.7388962507247925,
+    1.1913504600524902,
+    0.7286214232444763
+  ],
+  "selected_epoch": 4,
+  "selected_epoch_metrics_uncalibrated": {
+    "accuracy": 0.8297872340425532,
+    "macro_f1": 0.659162328899171,
+    "nll": 0.5923096177506171
+  },
+  "export_config": {
+    "aggregation": "mean_logit",
+    "temperature": 1.25,
+    "prior_correction_strength": 0.5,
+    "complexity": 0,
+    "accuracy": 0.8191489361702128,
+    "macro_f1": 0.5603844533048072,
+    "nll": 0.5830596311877956
+  },
+  "export_candidates": [
+    {
+      "aggregation": "mean_logit",
+      "temperature": 0.6,
+      "prior_correction_strength": 0.0,
+      "complexity": 0,
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.7337238790475327
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 0.8,
+      "prior_correction_strength": 0.0,
+      "complexity": 0,
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.6282477007964472
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.0,
+      "prior_correction_strength": 0.0,
+      "complexity": 0,
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.5923096177506171
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.25,
+      "prior_correction_strength": 0.0,
+      "complexity": 0,
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.595178359602953
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.5,
+      "prior_correction_strength": 0.0,
+      "complexity": 0,
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.6246062136061767
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 2.0,
+      "prior_correction_strength": 0.0,
+      "complexity": 0,
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.7124265896827298
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 0.6,
+      "prior_correction_strength": 0.5,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.7593807250497093
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 0.8,
+      "prior_correction_strength": 0.5,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.6442174076125053
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.0,
+      "prior_correction_strength": 0.5,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.5964638964536089
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.25,
+      "prior_correction_strength": 0.5,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.5830596311877956
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.5,
+      "prior_correction_strength": 0.5,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.5960294296568363
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 2.0,
+      "prior_correction_strength": 0.5,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5528146183318597,
+      "nll": 0.6541905202971657
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 0.6,
+      "prior_correction_strength": 1.0,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.7933277276760944
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 0.8,
+      "prior_correction_strength": 1.0,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.6727950476817254
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.0,
+      "prior_correction_strength": 1.0,
+      "complexity": 0,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5528146183318597,
+      "nll": 0.6181081989552556
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.25,
+      "prior_correction_strength": 1.0,
+      "complexity": 0,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.524009324009324,
+      "nll": 0.5947310843403223
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 1.5,
+      "prior_correction_strength": 1.0,
+      "complexity": 0,
+      "accuracy": 0.7978723404255319,
+      "macro_f1": 0.504202079077453,
+      "nll": 0.597198050371124
+    },
+    {
+      "aggregation": "mean_logit",
+      "temperature": 2.0,
+      "prior_correction_strength": 1.0,
+      "complexity": 0,
+      "accuracy": 0.7872340425531915,
+      "macro_f1": 0.4699935358758888,
+      "nll": 0.6353814211459156
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 0.6,
+      "prior_correction_strength": 0.0,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5543040293040293,
+      "nll": 0.713772600984688
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 0.8,
+      "prior_correction_strength": 0.0,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5543040293040293,
+      "nll": 0.6249667490801636
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.0,
+      "prior_correction_strength": 0.0,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5543040293040293,
+      "nll": 0.6004457448877734
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.25,
+      "prior_correction_strength": 0.0,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5543040293040293,
+      "nll": 0.6127169264160582
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.5,
+      "prior_correction_strength": 0.0,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5543040293040293,
+      "nll": 0.6478342996073608
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 2.0,
+      "prior_correction_strength": 0.0,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5543040293040293,
+      "nll": 0.7405071508585679
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 0.6,
+      "prior_correction_strength": 0.5,
+      "complexity": 1,
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5603844533048072,
+      "nll": 0.7400966743164736
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 0.8,
+      "prior_correction_strength": 0.5,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.5347339616904835,
+      "nll": 0.6400924855685277
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.0,
+      "prior_correction_strength": 0.5,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.5347339616904835,
+      "nll": 0.6026090529461768
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.25,
+      "prior_correction_strength": 0.5,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.5380630259033163,
+      "nll": 0.5976599281717795
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.5,
+      "prior_correction_strength": 0.5,
+      "complexity": 1,
+      "accuracy": 0.7978723404255319,
+      "macro_f1": 0.5174152526239642,
+      "nll": 0.615841549071162
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 2.0,
+      "prior_correction_strength": 0.5,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.524009324009324,
+      "nll": 0.6787889707879605
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 0.6,
+      "prior_correction_strength": 1.0,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.5380630259033163,
+      "nll": 0.776100530049118
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 0.8,
+      "prior_correction_strength": 1.0,
+      "complexity": 1,
+      "accuracy": 0.7978723404255319,
+      "macro_f1": 0.5174152526239642,
+      "nll": 0.6696103636098466
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.0,
+      "prior_correction_strength": 1.0,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.524009324009324,
+      "nll": 0.6241892913785071
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.25,
+      "prior_correction_strength": 1.0,
+      "complexity": 1,
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.524009324009324,
+      "nll": 0.6082459066556517
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 1.5,
+      "prior_correction_strength": 1.0,
+      "complexity": 1,
+      "accuracy": 0.7872340425531915,
+      "macro_f1": 0.4699935358758888,
+      "nll": 0.6152242952511772
+    },
+    {
+      "aggregation": "mean_probability",
+      "temperature": 2.0,
+      "prior_correction_strength": 1.0,
+      "complexity": 1,
+      "accuracy": 0.776595744680851,
+      "macro_f1": 0.42710444635578326,
+      "nll": 0.6575772475312741
+    }
+  ],
+  "export_accuracy_one_sample_cutoff": 0.8191489361702128,
+  "selected_validation_metrics": {
+    "accuracy": 0.8191489361702128,
+    "macro_f1": 0.5603844533048072,
+    "nll": 0.5830596311877956
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.2732436394835094,
+      "learning_rates": [
+        0.00019782568627301367,
+        0.000989084726566536
+      ],
+      "accuracy": 0.7659574468085106,
+      "macro_f1": 0.5568148148148149,
+      "nll": 0.6392327420295953
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9773373941341078,
+      "learning_rates": [
+        0.00019139777303543877,
+        0.0009568159560924792
+      ],
+      "accuracy": 0.8085106382978723,
+      "macro_f1": 0.5450587226903016,
+      "nll": 0.5759992474297655
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8540290421750172,
+      "learning_rates": [
+        0.00018099719094030728,
+        0.0009046039886902865
+      ],
+      "accuracy": 0.7872340425531915,
+      "macro_f1": 0.4992481203007519,
+      "nll": 0.58171187722213
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.814129811453532,
+      "learning_rates": [
+        0.0001670784953327064,
+        0.0008347307378762499
+      ],
+      "accuracy": 0.8297872340425532,
+      "macro_f1": 0.659162328899171,
+      "nll": 0.5923096177506171
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.755853476384318,
+      "learning_rates": [
+        0.00015025000000000002,
+        0.0007502500000000003
+      ],
+      "accuracy": 0.7553191489361702,
+      "macro_f1": 0.42597402597402595,
+      "nll": 0.6712638595247279
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6575405249394566,
+      "learning_rates": [
+        0.0001312471909403073,
+        0.0006548539886902865
+      ],
+      "accuracy": 0.7340425531914894,
+      "macro_f1": 0.48386320759572216,
+      "nll": 0.8293848002576957
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6262910054570221,
+      "learning_rates": [
+        0.00011090058209513155,
+        0.0005527119674021932
+      ],
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.6116959064327485,
+      "nll": 0.6501217015041263
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.5790361547505999,
+      "learning_rates": [
+        9.009941790486851e-05,
+        0.0004482880325978074
+      ],
+      "accuracy": 0.776595744680851,
+      "macro_f1": 0.5300693481276005,
+      "nll": 0.666328139492852
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.49977724622172043,
+      "learning_rates": [
+        6.975280905969276e-05,
+        0.000346146011309714
+      ],
+      "accuracy": 0.8191489361702128,
+      "macro_f1": 0.5322885794605687,
+      "nll": 0.6250435771166004
+    }
+  ],
+  "test_metrics_computed": false,
+  "test_predictions_exported_for_locked_evaluation": true,
+  "hyperparameter_selection_data": "same-fold validation patients only",
+  "counts": {
+    "train": 661,
+    "validation": 94,
+    "test": 186
+  },
+  "patient_overlap": 0,
+  "seed": 20434104,
+  "torch_version": "2.8.0+cu128"
+}

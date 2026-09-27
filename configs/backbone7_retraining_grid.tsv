@@ -1,0 +1,8 @@
+method_id	display_name	output_filename	seed	view	backbone	pooling	overlap_sec	loss	focal_gamma	focal_alpha	no_sampler	no_entropy	no_mixup	no_specaug	topk_frac	tta_offsets	base_lr	weight_decay	batch_size	max_epochs	early_stop_patience	lambda_entropy	window_sec	label_smoothing	spec_time_mask	spec_freq_mask	mixup_alpha	mixup_prob
+convnext_tiny	ConvNeXt-Tiny	convnext_oof_predictions.csv	252	log_stft	convnext_tiny	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5
+swin_tiny	Swin-Tiny	swin_log42_oof_predictions.csv	42	log_stft	swin_tiny_patch4_window7_224	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5
+densenet121	DenseNet121	densenet121_oof_predictions.csv	42	log_stft	densenet121	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5
+efficientnet_b3	EfficientNet-B3	effb3_oof_predictions.csv	42	log_stft	tf_efficientnet_b3	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5
+vit_small_16	ViT-Small/16	vit_small_oof_predictions.csv	42	log_stft	vit_small_patch16_224	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5
+regnety_008	RegNetY-008	regnety008_oof_predictions.csv	42	log_stft	regnety_008	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5
+resnet50	ResNet50	resnet50_oof_predictions.csv	42	log_stft	resnet50	mean_logit	3.0	ce	2.0	balanced	1	0	0	0	0.5	0,0.25,0.5,0.75	5e-4	5e-2	64	300	50	0.5	4.0	0.0	20	10	0.4	0.5

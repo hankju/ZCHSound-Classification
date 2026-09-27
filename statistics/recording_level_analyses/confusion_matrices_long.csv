@@ -1,0 +1,226 @@
+method,true_label,pred_label,count
+Stage25 fixed curriculum,ASD,ASD,52
+Stage25 fixed curriculum,ASD,NORMAL,31
+Stage25 fixed curriculum,ASD,PDA,5
+Stage25 fixed curriculum,ASD,PFO,27
+Stage25 fixed curriculum,ASD,VSD,4
+Stage25 fixed curriculum,NORMAL,ASD,5
+Stage25 fixed curriculum,NORMAL,NORMAL,518
+Stage25 fixed curriculum,NORMAL,PDA,1
+Stage25 fixed curriculum,NORMAL,PFO,8
+Stage25 fixed curriculum,NORMAL,VSD,1
+Stage25 fixed curriculum,PDA,ASD,9
+Stage25 fixed curriculum,PDA,NORMAL,5
+Stage25 fixed curriculum,PDA,PDA,11
+Stage25 fixed curriculum,PDA,PFO,0
+Stage25 fixed curriculum,PDA,VSD,7
+Stage25 fixed curriculum,PFO,ASD,22
+Stage25 fixed curriculum,PFO,NORMAL,8
+Stage25 fixed curriculum,PFO,PDA,1
+Stage25 fixed curriculum,PFO,PFO,38
+Stage25 fixed curriculum,PFO,VSD,1
+Stage25 fixed curriculum,VSD,ASD,6
+Stage25 fixed curriculum,VSD,NORMAL,7
+Stage25 fixed curriculum,VSD,PDA,2
+Stage25 fixed curriculum,VSD,PFO,9
+Stage25 fixed curriculum,VSD,VSD,163
+Stage26 multimodal,ASD,ASD,52
+Stage26 multimodal,ASD,NORMAL,30
+Stage26 multimodal,ASD,PDA,4
+Stage26 multimodal,ASD,PFO,28
+Stage26 multimodal,ASD,VSD,5
+Stage26 multimodal,NORMAL,ASD,5
+Stage26 multimodal,NORMAL,NORMAL,514
+Stage26 multimodal,NORMAL,PDA,1
+Stage26 multimodal,NORMAL,PFO,12
+Stage26 multimodal,NORMAL,VSD,1
+Stage26 multimodal,PDA,ASD,8
+Stage26 multimodal,PDA,NORMAL,6
+Stage26 multimodal,PDA,PDA,11
+Stage26 multimodal,PDA,PFO,0
+Stage26 multimodal,PDA,VSD,7
+Stage26 multimodal,PFO,ASD,19
+Stage26 multimodal,PFO,NORMAL,7
+Stage26 multimodal,PFO,PDA,1
+Stage26 multimodal,PFO,PFO,42
+Stage26 multimodal,PFO,VSD,1
+Stage26 multimodal,VSD,ASD,8
+Stage26 multimodal,VSD,NORMAL,7
+Stage26 multimodal,VSD,PDA,3
+Stage26 multimodal,VSD,PFO,7
+Stage26 multimodal,VSD,VSD,162
+ConvNeXt-Tiny,ASD,ASD,34
+ConvNeXt-Tiny,ASD,NORMAL,35
+ConvNeXt-Tiny,ASD,PDA,3
+ConvNeXt-Tiny,ASD,PFO,29
+ConvNeXt-Tiny,ASD,VSD,18
+ConvNeXt-Tiny,NORMAL,ASD,7
+ConvNeXt-Tiny,NORMAL,NORMAL,513
+ConvNeXt-Tiny,NORMAL,PDA,4
+ConvNeXt-Tiny,NORMAL,PFO,5
+ConvNeXt-Tiny,NORMAL,VSD,4
+ConvNeXt-Tiny,PDA,ASD,3
+ConvNeXt-Tiny,PDA,NORMAL,6
+ConvNeXt-Tiny,PDA,PDA,1
+ConvNeXt-Tiny,PDA,PFO,3
+ConvNeXt-Tiny,PDA,VSD,19
+ConvNeXt-Tiny,PFO,ASD,21
+ConvNeXt-Tiny,PFO,NORMAL,12
+ConvNeXt-Tiny,PFO,PDA,0
+ConvNeXt-Tiny,PFO,PFO,33
+ConvNeXt-Tiny,PFO,VSD,4
+ConvNeXt-Tiny,VSD,ASD,12
+ConvNeXt-Tiny,VSD,NORMAL,14
+ConvNeXt-Tiny,VSD,PDA,4
+ConvNeXt-Tiny,VSD,PFO,12
+ConvNeXt-Tiny,VSD,VSD,145
+Swin-Tiny,ASD,ASD,27
+Swin-Tiny,ASD,NORMAL,37
+Swin-Tiny,ASD,PDA,4
+Swin-Tiny,ASD,PFO,31
+Swin-Tiny,ASD,VSD,20
+Swin-Tiny,NORMAL,ASD,8
+Swin-Tiny,NORMAL,NORMAL,514
+Swin-Tiny,NORMAL,PDA,0
+Swin-Tiny,NORMAL,PFO,10
+Swin-Tiny,NORMAL,VSD,1
+Swin-Tiny,PDA,ASD,6
+Swin-Tiny,PDA,NORMAL,6
+Swin-Tiny,PDA,PDA,1
+Swin-Tiny,PDA,PFO,4
+Swin-Tiny,PDA,VSD,15
+Swin-Tiny,PFO,ASD,21
+Swin-Tiny,PFO,NORMAL,9
+Swin-Tiny,PFO,PDA,1
+Swin-Tiny,PFO,PFO,33
+Swin-Tiny,PFO,VSD,6
+Swin-Tiny,VSD,ASD,13
+Swin-Tiny,VSD,NORMAL,16
+Swin-Tiny,VSD,PDA,3
+Swin-Tiny,VSD,PFO,12
+Swin-Tiny,VSD,VSD,143
+DenseNet121,ASD,ASD,30
+DenseNet121,ASD,NORMAL,35
+DenseNet121,ASD,PDA,5
+DenseNet121,ASD,PFO,33
+DenseNet121,ASD,VSD,16
+DenseNet121,NORMAL,ASD,9
+DenseNet121,NORMAL,NORMAL,512
+DenseNet121,NORMAL,PDA,1
+DenseNet121,NORMAL,PFO,9
+DenseNet121,NORMAL,VSD,2
+DenseNet121,PDA,ASD,6
+DenseNet121,PDA,NORMAL,4
+DenseNet121,PDA,PDA,0
+DenseNet121,PDA,PFO,2
+DenseNet121,PDA,VSD,20
+DenseNet121,PFO,ASD,21
+DenseNet121,PFO,NORMAL,6
+DenseNet121,PFO,PDA,1
+DenseNet121,PFO,PFO,36
+DenseNet121,PFO,VSD,6
+DenseNet121,VSD,ASD,13
+DenseNet121,VSD,NORMAL,13
+DenseNet121,VSD,PDA,4
+DenseNet121,VSD,PFO,9
+DenseNet121,VSD,VSD,148
+EfficientNet-B3,ASD,ASD,30
+EfficientNet-B3,ASD,NORMAL,37
+EfficientNet-B3,ASD,PDA,5
+EfficientNet-B3,ASD,PFO,25
+EfficientNet-B3,ASD,VSD,22
+EfficientNet-B3,NORMAL,ASD,4
+EfficientNet-B3,NORMAL,NORMAL,511
+EfficientNet-B3,NORMAL,PDA,2
+EfficientNet-B3,NORMAL,PFO,15
+EfficientNet-B3,NORMAL,VSD,1
+EfficientNet-B3,PDA,ASD,7
+EfficientNet-B3,PDA,NORMAL,3
+EfficientNet-B3,PDA,PDA,1
+EfficientNet-B3,PDA,PFO,3
+EfficientNet-B3,PDA,VSD,18
+EfficientNet-B3,PFO,ASD,17
+EfficientNet-B3,PFO,NORMAL,9
+EfficientNet-B3,PFO,PDA,0
+EfficientNet-B3,PFO,PFO,35
+EfficientNet-B3,PFO,VSD,9
+EfficientNet-B3,VSD,ASD,10
+EfficientNet-B3,VSD,NORMAL,15
+EfficientNet-B3,VSD,PDA,3
+EfficientNet-B3,VSD,PFO,12
+EfficientNet-B3,VSD,VSD,147
+ViT-Small/16,ASD,ASD,37
+ViT-Small/16,ASD,NORMAL,35
+ViT-Small/16,ASD,PDA,10
+ViT-Small/16,ASD,PFO,25
+ViT-Small/16,ASD,VSD,12
+ViT-Small/16,NORMAL,ASD,7
+ViT-Small/16,NORMAL,NORMAL,513
+ViT-Small/16,NORMAL,PDA,1
+ViT-Small/16,NORMAL,PFO,9
+ViT-Small/16,NORMAL,VSD,3
+ViT-Small/16,PDA,ASD,7
+ViT-Small/16,PDA,NORMAL,4
+ViT-Small/16,PDA,PDA,3
+ViT-Small/16,PDA,PFO,0
+ViT-Small/16,PDA,VSD,18
+ViT-Small/16,PFO,ASD,24
+ViT-Small/16,PFO,NORMAL,11
+ViT-Small/16,PFO,PDA,1
+ViT-Small/16,PFO,PFO,29
+ViT-Small/16,PFO,VSD,5
+ViT-Small/16,VSD,ASD,19
+ViT-Small/16,VSD,NORMAL,16
+ViT-Small/16,VSD,PDA,5
+ViT-Small/16,VSD,PFO,7
+ViT-Small/16,VSD,VSD,140
+RegNetY-008,ASD,ASD,28
+RegNetY-008,ASD,NORMAL,35
+RegNetY-008,ASD,PDA,7
+RegNetY-008,ASD,PFO,26
+RegNetY-008,ASD,VSD,23
+RegNetY-008,NORMAL,ASD,6
+RegNetY-008,NORMAL,NORMAL,512
+RegNetY-008,NORMAL,PDA,3
+RegNetY-008,NORMAL,PFO,7
+RegNetY-008,NORMAL,VSD,5
+RegNetY-008,PDA,ASD,4
+RegNetY-008,PDA,NORMAL,6
+RegNetY-008,PDA,PDA,0
+RegNetY-008,PDA,PFO,2
+RegNetY-008,PDA,VSD,20
+RegNetY-008,PFO,ASD,25
+RegNetY-008,PFO,NORMAL,10
+RegNetY-008,PFO,PDA,2
+RegNetY-008,PFO,PFO,25
+RegNetY-008,PFO,VSD,8
+RegNetY-008,VSD,ASD,13
+RegNetY-008,VSD,NORMAL,11
+RegNetY-008,VSD,PDA,2
+RegNetY-008,VSD,PFO,8
+RegNetY-008,VSD,VSD,153
+ResNet50,ASD,ASD,35
+ResNet50,ASD,NORMAL,33
+ResNet50,ASD,PDA,5
+ResNet50,ASD,PFO,23
+ResNet50,ASD,VSD,23
+ResNet50,NORMAL,ASD,12
+ResNet50,NORMAL,NORMAL,515
+ResNet50,NORMAL,PDA,0
+ResNet50,NORMAL,PFO,4
+ResNet50,NORMAL,VSD,2
+ResNet50,PDA,ASD,9
+ResNet50,PDA,NORMAL,5
+ResNet50,PDA,PDA,1
+ResNet50,PDA,PFO,1
+ResNet50,PDA,VSD,16
+ResNet50,PFO,ASD,28
+ResNet50,PFO,NORMAL,10
+ResNet50,PFO,PDA,0
+ResNet50,PFO,PFO,30
+ResNet50,PFO,VSD,2
+ResNet50,VSD,ASD,22
+ResNet50,VSD,NORMAL,12
+ResNet50,VSD,PDA,1
+ResNet50,VSD,PFO,8
+ResNet50,VSD,VSD,144

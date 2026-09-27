@@ -1,0 +1,62 @@
+{
+  "analysis": "NORMAL_vs_CHD_binary_screening",
+  "negative_definition": "NORMAL",
+  "positive_definition": [
+    "ASD",
+    "PDA",
+    "PFO",
+    "VSD"
+  ],
+  "decision_rule": "predicted five-class label is not NORMAL",
+  "roc_score": "1 - prob_NORMAL",
+  "n_recordings": 941,
+  "validation": {
+    "unique_recording_ids_per_method": true,
+    "probabilities_valid": true,
+    "predictions_reconstructable": true
+  },
+  "metrics": [
+    {
+      "method": "Stage25 fixed curriculum",
+      "n": 941,
+      "n_negative_normal": 533,
+      "n_positive_chd": 408,
+      "accuracy": 0.9298618490967057,
+      "sensitivity": 0.875,
+      "specificity": 0.9718574108818011,
+      "roc_auc": 0.9771502409594232,
+      "tn": 518,
+      "fp": 15,
+      "fn": 51,
+      "tp": 357
+    },
+    {
+      "method": "Stage26 multimodal",
+      "n": 941,
+      "n_negative_normal": 533,
+      "n_positive_chd": 408,
+      "accuracy": 0.926673751328374,
+      "sensitivity": 0.8774509803921569,
+      "specificity": 0.9643527204502814,
+      "roc_auc": 0.9757247176544164,
+      "tn": 514,
+      "fp": 19,
+      "fn": 50,
+      "tp": 358
+    }
+  ],
+  "input_provenance": {
+    "Stage25 fixed curriculum": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/stage25_fixed_curriculum_oof_predictions.csv",
+      "sha256": "2b7cea7e729dc8fe6a66a09d393eae2805efe8e4d0ffed30e5dc2956995f7d77"
+    },
+    "Stage26 multimodal": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/stage26_multimodal_oof_predictions.csv",
+      "sha256": "7267cbf5b0c756110fa076af8946429a4bbe8774a7997cc3482ae1376af923da"
+    }
+  },
+  "outputs": {
+    "normal_vs_chd_metrics.csv": "fabec16d22fc16ac7e20921fdee22fa00801de8cd41ae1b3a938c299f7d6bfdb",
+    "normal_vs_chd_predictions.csv": "595d1450c3e47c53c6f3a35ca796779608c70092275ea1ece9a1c8297209f7a3"
+  }
+}

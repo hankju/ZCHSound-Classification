@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its released predictions, cite this repository
+  and the ZCHSound, AST, and BEATs sources listed in CITATIONS.bib.
+title: ZCHSound Patient-Level Heart-Sound Classification
+type: software
+authors:
+  - family-names: "朱"
+    given-names: "恆暐"
+version: 1.0.0
+date-released: 2026-09-28
+license: MIT
+repository-code: https://github.com/hankju/ZCHSound-Classification
+url: https://github.com/hankju/ZCHSound-Classification
+keywords:
+  - heart sound
+  - congenital heart disease
+  - audio classification
+  - patient-level cross-validation
+  - multimodal fusion

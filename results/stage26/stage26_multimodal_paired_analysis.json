@@ -1,0 +1,114 @@
+{
+  "tag": "stage26_fixed_prediction_paired_analysis",
+  "selection_or_tuning_performed": false,
+  "bootstrap": {
+    "type": "paired class-stratified patient bootstrap",
+    "repeats": 20000,
+    "seed": 20262626,
+    "metric_deltas": {
+      "accuracy": {
+        "observed_delta": -0.0010626992561104665,
+        "percentile_95_ci": [
+          -0.009564293304994642,
+          0.006376195536663132
+        ],
+        "bootstrap_probability_delta_gt_zero": 0.3459,
+        "bootstrap_probability_delta_lt_zero": 0.5539
+      },
+      "macro_f1": {
+        "observed_delta": 0.0048825243019785525,
+        "percentile_95_ci": [
+          -0.009101687226867236,
+          0.019343680760582408
+        ],
+        "bootstrap_probability_delta_gt_zero": 0.752,
+        "bootstrap_probability_delta_lt_zero": 0.248
+      },
+      "minority_recall": {
+        "observed_delta": 0.01904761904761898,
+        "percentile_95_ci": [
+          -0.0008403361344537785,
+          0.041736694677871056
+        ],
+        "bootstrap_probability_delta_gt_zero": 0.9703,
+        "bootstrap_probability_delta_lt_zero": 0.02665
+      },
+      "minority_f1": {
+        "observed_delta": 0.010976657084998065,
+        "percentile_95_ci": [
+          -0.010872357713317448,
+          0.03423380578213484
+        ],
+        "bootstrap_probability_delta_gt_zero": 0.8353,
+        "bootstrap_probability_delta_lt_zero": 0.16465
+      },
+      "normal_recall": {
+        "observed_delta": -0.007504690431519689,
+        "percentile_95_ci": [
+          -0.016885553470919357,
+          0.0
+        ],
+        "bootstrap_probability_delta_gt_zero": 0.0236,
+        "bootstrap_probability_delta_lt_zero": 0.9321
+      },
+      "nll": {
+        "observed_delta": -0.008574408898058272,
+        "percentile_95_ci": [
+          -0.01600426146982838,
+          -0.0009559848469268953
+        ],
+        "bootstrap_probability_delta_gt_zero": 0.014,
+        "bootstrap_probability_delta_lt_zero": 0.986
+      }
+    }
+  },
+  "mcnemar_accuracy": {
+    "acoustic_only_correct": 8,
+    "multimodal_only_correct": 7,
+    "discordant": 15,
+    "exact_two_sided_p": 1.0
+  },
+  "descriptive_subgroups": {
+    "sex_0": {
+      "count": 473,
+      "acoustic_accuracy": 0.8076109936575053,
+      "multimodal_accuracy": 0.8033826638477801,
+      "accuracy_delta": -0.0042283298097252064,
+      "acoustic_nll": 0.577037497656708,
+      "multimodal_nll": 0.5642284168572208
+    },
+    "sex_1": {
+      "count": 468,
+      "acoustic_accuracy": 0.8547008547008547,
+      "multimodal_accuracy": 0.8568376068376068,
+      "accuracy_delta": 0.002136752136752129,
+      "acoustic_nll": 0.5132249337157918,
+      "multimodal_nll": 0.5089304389403316
+    },
+    "age_under_1_year": {
+      "count": 296,
+      "acoustic_accuracy": 0.7195945945945946,
+      "multimodal_accuracy": 0.7162162162162162,
+      "accuracy_delta": -0.0033783783783783994,
+      "acoustic_nll": 0.7833430585900119,
+      "multimodal_nll": 0.7739641287664443
+    },
+    "age_1_to_5_years": {
+      "count": 432,
+      "acoustic_accuracy": 0.8819444444444444,
+      "multimodal_accuracy": 0.8819444444444444,
+      "accuracy_delta": 0.0,
+      "acoustic_nll": 0.4329336421998662,
+      "multimodal_nll": 0.4254209303994339
+    },
+    "age_over_5_years": {
+      "count": 213,
+      "acoustic_accuracy": 0.8826291079812206,
+      "multimodal_accuracy": 0.8826291079812206,
+      "accuracy_delta": 0.0,
+      "acoustic_nll": 0.4423996553879239,
+      "multimodal_nll": 0.4327899650240269
+    }
+  },
+  "subgroup_warning": "Subgroups are descriptive only and were not used for model selection."
+}

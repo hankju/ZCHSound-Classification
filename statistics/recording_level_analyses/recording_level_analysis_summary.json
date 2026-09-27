@@ -1,0 +1,135 @@
+{
+  "analysis": "recording_level_confusion_bootstrap_mcnemar",
+  "n_recordings": 941,
+  "labels": [
+    "ASD",
+    "NORMAL",
+    "PDA",
+    "PFO",
+    "VSD"
+  ],
+  "methods": [
+    "Stage25 fixed curriculum",
+    "Stage26 multimodal",
+    "ConvNeXt-Tiny",
+    "Swin-Tiny",
+    "DenseNet121",
+    "EfficientNet-B3",
+    "ViT-Small/16",
+    "RegNetY-008",
+    "ResNet50"
+  ],
+  "split_seed": 20268020,
+  "bootstrap": {
+    "unit": "recording",
+    "method": "nonparametric percentile",
+    "resamples": 10000,
+    "seed": 20260826,
+    "confidence_level": 0.95,
+    "same_resample_indices_shared_across_methods": true
+  },
+  "mcnemar": {
+    "test": "exact two-sided paired McNemar",
+    "comparisons": 36,
+    "multiplicity_adjustment": "Holm across all pairwise comparisons",
+    "alpha": 0.05
+  },
+  "validation": {
+    "all_methods_have_941_unique_recording_ids": true,
+    "all_methods_have_identical_recording_ids": true,
+    "all_fold_and_true_labels_match_fixed_split": true,
+    "all_probabilities_valid_and_predictions_reconstructable": true
+  },
+  "input_provenance": {
+    "Stage25 fixed curriculum": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/predictions/stage25_fixed_curriculum_oof_predictions.csv",
+      "sha256": "2245fe4bf79501f125a644351c6b9ede63c5945327723820d3c7d5c80a9af3dd"
+    },
+    "Stage26 multimodal": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/results/stage26_multimodal_20260824/evaluation_once/stage26_multimodal_locked_predictions.csv",
+      "sha256": "3c4c251fcac839a00a5219adac62560d23f8e1fa57f00870c68270ead76efa98"
+    },
+    "ConvNeXt-Tiny": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/convnext_oof_predictions.csv",
+      "sha256": "7da4f1e22836d22fed49c0cde6ab3126d34954b2d42670128b45d21cb32b5aa9"
+    },
+    "Swin-Tiny": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/swin_log42_oof_predictions.csv",
+      "sha256": "12fa83d7109f43b06d1001d3e2faf4cda435a5d32af5feb21e3fddc309395748"
+    },
+    "DenseNet121": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/densenet121_oof_predictions.csv",
+      "sha256": "d91b1cca784d069ac600c2362976a4574819864131e250669c570d07a2431a7e"
+    },
+    "EfficientNet-B3": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/effb3_oof_predictions.csv",
+      "sha256": "b20290fd04674682540ad8c2ac4a0099119bb0b88cc6be3013c954ef37575472"
+    },
+    "ViT-Small/16": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/vit_small_oof_predictions.csv",
+      "sha256": "359ded3481bcfe45c3ab27754dab5d57b4b58108b001934f01edb453a5e99231"
+    },
+    "RegNetY-008": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/regnety008_oof_predictions.csv",
+      "sha256": "24497aeb03a8e8a7a7aa54f3ef6ab95a1667c46cf911fb15fa7ac345c9e7beab"
+    },
+    "ResNet50": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/resnet50_oof_predictions.csv",
+      "sha256": "f4cd9fb5188cdbf62faa7bc116426b0996eb09cb07168602a73950d7fc782702"
+    }
+  },
+  "output_provenance": {
+    "confusion_matrices_long.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/confusion_matrices_long.csv",
+      "sha256": "37c5b86119f8f84f8f70340d361a6749eff75dc707c6700072a2cf1c6a41773b"
+    },
+    "confusion_matrices_wide.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/confusion_matrices_wide.csv",
+      "sha256": "5dba1a571f0ffbc7714b4db220fc6ce6f03760af9eb356b440e19970d708d3bc"
+    },
+    "bootstrap_95ci.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/bootstrap_95ci.csv",
+      "sha256": "0db44b07e38822016186eda0aea9ef609c85e0a702f79adea8a7d1cc9f1b0b11"
+    },
+    "mcnemar_all_pairwise.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/mcnemar_all_pairwise.csv",
+      "sha256": "8d200f8786fdf20cccfff60eb10b858786c0252de3f50ee877a2223470ed4c35"
+    },
+    "stage25_fixed_curriculum_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/stage25_fixed_curriculum_oof_predictions.csv",
+      "sha256": "2b7cea7e729dc8fe6a66a09d393eae2805efe8e4d0ffed30e5dc2956995f7d77"
+    },
+    "stage26_multimodal_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/stage26_multimodal_oof_predictions.csv",
+      "sha256": "7267cbf5b0c756110fa076af8946429a4bbe8774a7997cc3482ae1376af923da"
+    },
+    "convnext_tiny_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/convnext_tiny_oof_predictions.csv",
+      "sha256": "627fb4db05e255654cd04a0a41e583af062cbf96e4282c90bc36559dfd00402b"
+    },
+    "swin_tiny_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/swin_tiny_oof_predictions.csv",
+      "sha256": "d6df5650351ce2828826f264d687a20248a8b9908747f13666bf9ae869d5d596"
+    },
+    "densenet121_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/densenet121_oof_predictions.csv",
+      "sha256": "702836963ab746cd502081d2c2c0f02a49a40adbd4b8e116da966e22178f81c6"
+    },
+    "efficientnet_b3_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/efficientnet_b3_oof_predictions.csv",
+      "sha256": "775af34bcb1b1fb1496de34e6dba9378fba25cb8b31211b37dc2cf0fba6f74ad"
+    },
+    "vit_small_16_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/vit_small_16_oof_predictions.csv",
+      "sha256": "2709e2d3285d8aea1370d76aac49833fd863d9630d08f5a78659a22e85a1b080"
+    },
+    "regnety_008_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/regnety_008_oof_predictions.csv",
+      "sha256": "5f7beefa74d6d24c5a0fb861e2a9aa4c6422464c0035278a29aac2a1a178275d"
+    },
+    "resnet50_oof_predictions.csv": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/recording_level_analyses/predictions/resnet50_oof_predictions.csv",
+      "sha256": "2471b1992fc6854a10a4ba424f47bf0bf5489cbff7fa2b4202d7b141f22f1718"
+    }
+  }
+}

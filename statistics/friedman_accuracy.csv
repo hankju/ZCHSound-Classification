@@ -1,0 +1,2 @@
+metric,n_blocks,n_methods,df,statistic,p,kendalls_w
+accuracy,5,8,7,14.804999999999994,0.03858185933460809,0.4229999999999998

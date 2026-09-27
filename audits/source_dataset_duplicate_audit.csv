@@ -1,0 +1,7 @@
+first_path,first_label,first_outer_test_fold,second_path,second_label,second_outer_test_fold,sha256,cross_outer_fold,label_conflict,formal_action
+NORMAL/ZCH0090.wav,NORMAL,3,NORMAL/ZCH0171.wav,NORMAL,3,add79a2966b85144ffa034be668fead4c720619870186a3eb960f2bf71ff04e3,false,false,retain_both_original_rows
+NORMAL/ZCH0015.wav,NORMAL,1,NORMAL/ZCH0219.wav,NORMAL,2,c7c393f13c18d4ccee73aeb7a253b2ecf3d7fd970864c243f9c0dade7b693116,true,false,retain_both_original_rows
+NORMAL/ZCH0268.wav,NORMAL,4,NORMAL/ZCH0366.wav,NORMAL,2,50963b87e491e213ba028f0e2abf327721c168d8040c38f30cdedb711da800c1,true,false,retain_both_original_rows
+NORMAL/ZCH0182.wav,NORMAL,4,NORMAL/ZCH0401.wav,NORMAL,4,51ec2540646324fa14dc7a880f71f8b0e495ecfb9b26c6b79f3d928e872369f7,false,false,retain_both_original_rows
+NORMAL/ZCH0465.wav,NORMAL,0,NORMAL/ZCH0515.wav,NORMAL,3,e2982ece4a313e434d783c769d76b0364685a5742e5085a7df8c6f19a89d9d4e,true,false,retain_both_original_rows
+ASD/ZCH0545.wav,ASD,1,VSD/ZCH0802.wav,VSD,2,343d1c65e528c58e88e3b552d095482af032edabe96107a15d5d8535a8af05a1,true,true,retain_both_original_rows

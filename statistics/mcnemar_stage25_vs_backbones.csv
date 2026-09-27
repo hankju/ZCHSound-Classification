@@ -1,0 +1,8 @@
+formal_method,backbone,formal_only_correct,backbone_only_correct,discordant,exact_two_sided_p,holm_adjusted_p,reject_holm_0_05
+Stage25 fixed curriculum,ConvNeXt-Tiny,81,25,106,4.4793745175678225e-08,1.791749807027129e-07,True
+Stage25 fixed curriculum,Swin-Tiny,90,26,116,1.894640656756038e-09,1.1367843940536229e-08,True
+Stage25 fixed curriculum,DenseNet121,84,28,112,1.1106999545541781e-07,1.9517823869738808e-07,True
+Stage25 fixed curriculum,EfficientNet-B3,86,28,114,4.8421326028531284e-08,1.791749807027129e-07,True
+Stage25 fixed curriculum,ViT-Small/16,89,29,118,2.8230349944117135e-08,1.4115174972058568e-07,True
+Stage25 fixed curriculum,RegNetY-008,89,25,114,1.3151843662610918e-09,9.206290563827643e-09,True
+Stage25 fixed curriculum,ResNet50,86,29,115,9.758911934869404e-08,1.9517823869738808e-07,True

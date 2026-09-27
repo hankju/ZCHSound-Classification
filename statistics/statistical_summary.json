@@ -1,0 +1,287 @@
+{
+  "alpha": 0.05,
+  "methods": [
+    "Stage25 fixed curriculum",
+    "ConvNeXt-Tiny",
+    "Swin-Tiny",
+    "DenseNet121",
+    "EfficientNet-B3",
+    "ViT-Small/16",
+    "RegNetY-008",
+    "ResNet50"
+  ],
+  "metrics": {
+    "accuracy": {
+      "anova": [
+        {
+          "Source": "Fold (block)",
+          "df": 4,
+          "SS": 0.0041228893895788495,
+          "MS": 0.0010307223473947124,
+          "F": 6.705417129765924,
+          "p": 0.0006452459753130078
+        },
+        {
+          "Source": "Method",
+          "df": 7,
+          "SS": 0.017780606775745608,
+          "MS": 0.0025400866822493724,
+          "F": 16.524664273843232,
+          "p": 2.0410077826735394e-08
+        },
+        {
+          "Source": "Residual",
+          "df": 28,
+          "SS": 0.004304016464380556,
+          "MS": 0.000153714873727877,
+          "F": "",
+          "p": ""
+        }
+      ],
+      "duncan_groups": [
+        {
+          "Method": "Stage25 fixed curriculum",
+          "Mean (%)": 83.10539715520049,
+          "Group": "a"
+        },
+        {
+          "Method": "ConvNeXt-Tiny",
+          "Mean (%)": 77.16217737057877,
+          "Group": "b"
+        },
+        {
+          "Method": "DenseNet121",
+          "Mean (%)": 77.14921820202403,
+          "Group": "b"
+        },
+        {
+          "Method": "ResNet50",
+          "Mean (%)": 77.05469865319508,
+          "Group": "b"
+        },
+        {
+          "Method": "EfficientNet-B3",
+          "Mean (%)": 76.94154858516296,
+          "Group": "b"
+        },
+        {
+          "Method": "ViT-Small/16",
+          "Mean (%)": 76.72651317310707,
+          "Group": "b"
+        },
+        {
+          "Method": "RegNetY-008",
+          "Mean (%)": 76.30322089987078,
+          "Group": "b"
+        },
+        {
+          "Method": "Swin-Tiny",
+          "Mean (%)": 76.30317273553405,
+          "Group": "b"
+        }
+      ],
+      "friedman": {
+        "metric": "accuracy",
+        "n_blocks": 5,
+        "n_methods": 8,
+        "df": 7,
+        "statistic": 14.804999999999994,
+        "p": 0.03858185933460809,
+        "kendalls_w": 0.4229999999999998
+      }
+    },
+    "macro_f1": {
+      "anova": [
+        {
+          "Source": "Fold (block)",
+          "df": 4,
+          "SS": 0.004421333405346841,
+          "MS": 0.0011053333513367102,
+          "F": 1.0577902738119092,
+          "p": 0.39567589081404064
+        },
+        {
+          "Source": "Method",
+          "df": 7,
+          "SS": 0.11252911230586374,
+          "MS": 0.01607558747226625,
+          "F": 15.384137331431898,
+          "p": 4.3973286776891034e-08
+        },
+        {
+          "Source": "Residual",
+          "df": 28,
+          "SS": 0.029258478361591678,
+          "MS": 0.0010449456557711314,
+          "F": "",
+          "p": ""
+        }
+      ],
+      "duncan_groups": [
+        {
+          "Method": "Stage25 fixed curriculum",
+          "Mean (%)": 64.59370625641775,
+          "Group": "a"
+        },
+        {
+          "Method": "ViT-Small/16",
+          "Mean (%)": 50.76259737954597,
+          "Group": "b"
+        },
+        {
+          "Method": "ResNet50",
+          "Mean (%)": 49.94634120280239,
+          "Group": "b"
+        },
+        {
+          "Method": "ConvNeXt-Tiny",
+          "Mean (%)": 49.79165822099482,
+          "Group": "b"
+        },
+        {
+          "Method": "EfficientNet-B3",
+          "Mean (%)": 49.27981413948807,
+          "Group": "b"
+        },
+        {
+          "Method": "DenseNet121",
+          "Mean (%)": 49.104572739248844,
+          "Group": "b"
+        },
+        {
+          "Method": "Swin-Tiny",
+          "Mean (%)": 48.30923721704196,
+          "Group": "b"
+        },
+        {
+          "Method": "RegNetY-008",
+          "Mean (%)": 46.11615008386819,
+          "Group": "b"
+        }
+      ],
+      "friedman": {
+        "metric": "macro_f1",
+        "n_blocks": 5,
+        "n_methods": 8,
+        "df": 7,
+        "statistic": 15.133333333333326,
+        "p": 0.03432774551466476,
+        "kendalls_w": 0.43238095238095214
+      }
+    }
+  },
+  "mcnemar": [
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "ConvNeXt-Tiny",
+      "formal_only_correct": 81,
+      "backbone_only_correct": 25,
+      "discordant": 106,
+      "exact_two_sided_p": 4.4793745175678225e-08,
+      "holm_adjusted_p": 1.791749807027129e-07,
+      "reject_holm_0_05": true
+    },
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "Swin-Tiny",
+      "formal_only_correct": 90,
+      "backbone_only_correct": 26,
+      "discordant": 116,
+      "exact_two_sided_p": 1.894640656756038e-09,
+      "holm_adjusted_p": 1.1367843940536229e-08,
+      "reject_holm_0_05": true
+    },
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "DenseNet121",
+      "formal_only_correct": 84,
+      "backbone_only_correct": 28,
+      "discordant": 112,
+      "exact_two_sided_p": 1.1106999545541781e-07,
+      "holm_adjusted_p": 1.9517823869738808e-07,
+      "reject_holm_0_05": true
+    },
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "EfficientNet-B3",
+      "formal_only_correct": 86,
+      "backbone_only_correct": 28,
+      "discordant": 114,
+      "exact_two_sided_p": 4.8421326028531284e-08,
+      "holm_adjusted_p": 1.791749807027129e-07,
+      "reject_holm_0_05": true
+    },
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "ViT-Small/16",
+      "formal_only_correct": 89,
+      "backbone_only_correct": 29,
+      "discordant": 118,
+      "exact_two_sided_p": 2.8230349944117135e-08,
+      "holm_adjusted_p": 1.4115174972058568e-07,
+      "reject_holm_0_05": true
+    },
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "RegNetY-008",
+      "formal_only_correct": 89,
+      "backbone_only_correct": 25,
+      "discordant": 114,
+      "exact_two_sided_p": 1.3151843662610918e-09,
+      "holm_adjusted_p": 9.206290563827643e-09,
+      "reject_holm_0_05": true
+    },
+    {
+      "formal_method": "Stage25 fixed curriculum",
+      "backbone": "ResNet50",
+      "formal_only_correct": 86,
+      "backbone_only_correct": 29,
+      "discordant": 115,
+      "exact_two_sided_p": 9.758911934869404e-08,
+      "holm_adjusted_p": 1.9517823869738808e-07,
+      "reject_holm_0_05": true
+    }
+  ],
+  "input_provenance": {
+    "Stage25 fixed curriculum": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/results/stage25_curriculum_replication_20260824/evaluation_once/stage24_conditional_fusion_predictions.csv",
+      "sha256": "1ee138ba3398710172670a530347dcf784ef602ed5a4623c2bb912e308cf5f76"
+    },
+    "ConvNeXt-Tiny": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/convnext_oof_predictions.csv",
+      "sha256": "7da4f1e22836d22fed49c0cde6ab3126d34954b2d42670128b45d21cb32b5aa9"
+    },
+    "Swin-Tiny": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/swin_log42_oof_predictions.csv",
+      "sha256": "12fa83d7109f43b06d1001d3e2faf4cda435a5d32af5feb21e3fddc309395748"
+    },
+    "DenseNet121": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/densenet121_oof_predictions.csv",
+      "sha256": "d91b1cca784d069ac600c2362976a4574819864131e250669c570d07a2431a7e"
+    },
+    "EfficientNet-B3": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/effb3_oof_predictions.csv",
+      "sha256": "b20290fd04674682540ad8c2ac4a0099119bb0b88cc6be3013c954ef37575472"
+    },
+    "ViT-Small/16": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/vit_small_oof_predictions.csv",
+      "sha256": "359ded3481bcfe45c3ab27754dab5d57b4b58108b001934f01edb453a5e99231"
+    },
+    "RegNetY-008": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/regnety008_oof_predictions.csv",
+      "sha256": "24497aeb03a8e8a7a7aa54f3ef6ab95a1667c46cf911fb15fa7ac345c9e7beab"
+    },
+    "ResNet50": {
+      "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/backbone7_results/predictions/resnet50_oof_predictions.csv",
+      "sha256": "f4cd9fb5188cdbf62faa7bc116426b0996eb09cb07168602a73950d7fc782702"
+    }
+  },
+  "fixed_split_manifest": {
+    "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/zchsound_nested_training_incremental_20260806/configs/splits_stage24_confirm_seed20268020/cv5_manifest.json",
+    "sha256": "8416b7c7bb3d38a8e332c28aa82c0f2012e2e717d32e07b182684b2dce62567c"
+  },
+  "formal_prediction_output": {
+    "path": "/home/u7671999/best_baseline_platform_handoff_20260601_20260601_130656/original941_stage25split_backbone_rerun_20260825/statistical_tests/predictions/stage25_fixed_curriculum_oof_predictions.csv",
+    "sha256": "2245fe4bf79501f125a644351c6b9ede63c5945327723820d3c7d5c80a9af3dd"
+  }
+}
